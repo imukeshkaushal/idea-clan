@@ -176,5 +176,19 @@ User Can easily delete the book using their respective id
 ```
 ![image](https://github.com/imukeshkaushal/idea-clan/assets/97522154/9e6e74fb-893e-4098-bbf4-b6bf63918d11)
 
+### Borrow a Book
+
+User Can easily add the Request for Borrow the Book
+```
+
+ mutation{
+  borrowBook(bookId :"660016fb369e7aac83da6b1b", userId:"65fff6317c9409ab46125673"){
+    _id
+    
+  }
+}
+```
+![image](https://github.com/imukeshkaushal/idea-clan/assets/97522154/b2f95da1-a71b-4229-9330-487641e8674c)
+
 
 
